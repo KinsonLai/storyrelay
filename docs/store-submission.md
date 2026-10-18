@@ -7,7 +7,7 @@ Status: release ZIP prepared for sideload/testing; **not submitted or approved**
 1. Register in the [developer dashboard](https://chrome.google.com/webstore/devconsole) using the intended publishing account. Owner completes any legal agreement, fee and identity/account verification. Do not share passwords or pay through an automation workaround.
 2. Upload the release ZIP with manifest.json at its root.
 3. Use the listing text below, icon in `extension/icons/128.png`, and actual UI screenshots from QA. Screenshot captions must say synthetic test world when the data/model are fixtures.
-4. Set the hosted privacy policy URL to `https://kinsonlai.github.io/storyrelay/privacy.html` **only if Pages has been enabled and that URL verified**. Otherwise use the public repository's privacy HTML source link, or host the policy through a normal public HTTPS page. Do not enter an unverified Pages URL.
+4. Set the hosted privacy policy URL to `https://kinsonlai.github.io/storyrelay/privacy.html` (Pages enabled and this URL verified in Chrome on 18 October 2026). Otherwise use the public repository's privacy HTML source link, or host the policy through a normal public HTTPS page. Do not enter an unverified Pages URL.
 5. Complete data/permission disclosures accurately, supply a reviewer-accessible compatible world and test account if required, then submit for review. There is currently no publicly hosted compatible demo; this remains a store-readiness dependency, alongside account registration.
 
 ## Listing draft

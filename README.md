@@ -4,7 +4,7 @@
 
 A small Manifest V3 extension for **hosted, persistent MCP text adventures inside the official DeepSeek website**. No model API key, local proxy, native host, terminal or userscript manager for players.
 
-[繁體中文](README.zh-TW.md) · [Compatibility](docs/world-contract.md) · [Comparison](docs/landscape.md) · [Privacy](extension/privacy.html) · [Store submission](docs/store-submission.md)
+[Project page](https://kinsonlai.github.io/storyrelay/) · [繁體中文](README.zh-TW.md) · [Compatibility](docs/world-contract.md) · [Comparison](docs/landscape.md) · [Privacy](extension/privacy.html) · [Store submission](docs/store-submission.md)
 
 ## What makes it specific?
 

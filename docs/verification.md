@@ -9,3 +9,5 @@
 - No private novel, production save, account credential or private-world origin is in this repository.
 
 Remaining external validation: real Chrome user install + optional permission prompt, live DeepSeek with this installed extension, publicly hosted reviewer-compatible world, and Chrome Web Store review. Future DeepSeek UI changes can require adapter updates.
+
+Public source and v0.1.0 Chrome ZIP release are live at https://github.com/KinsonLai/storyrelay. GitHub CI passed. ZIP SHA256: `892b91ca0e2062c3c9c80a3fbb54521e905d09b59e82be9bcc9f7fcdec3060ba`. GitHub Pages homepage and privacy policy were visibly verified in Chrome at https://kinsonlai.github.io/storyrelay/.
