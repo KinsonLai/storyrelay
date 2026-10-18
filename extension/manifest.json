@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "StoryRelay — MCP Adventures for DeepSeek",
+  "version": "0.1.0",
+  "description": "Play receipt-aware MCP adventures in DeepSeek Web. No model API key, local proxy or userscript manager.",
+  "permissions": ["storage", "scripting"],
+  "host_permissions": ["https://chat.deepseek.com/*"],
+  "optional_host_permissions": ["https://*/*"],
+  "background": { "service_worker": "background.mjs", "type": "module" },
+  "action": { "default_popup": "popup.html", "default_title": "StoryRelay" },
+  "options_page": "popup.html",
+  "content_scripts": [
+    {
+      "matches": ["https://chat.deepseek.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ],
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'"
+  }
+}

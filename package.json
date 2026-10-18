@@ -1,0 +1,16 @@
+{
+  "name": "storyrelay",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "Receipt-aware MCP adventures inside DeepSeek Web, without a local proxy or model API.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check:release": "node scripts/check-release.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
